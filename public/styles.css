@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Itim&family=Pangolin&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.siteName {
+  margin: 0;
+  color: #353941;
+  padding-left: 0.7rem;
+  font-size: 2.8rem;
+  font-family: 'Itim', cursive;
+}
+
+#footer {
+  font-size: 1.1rem;
+  width: 100%;
+  text-align: center;
+  color: #47597E;
+}
+
+.user {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 35rem;
+  position: relative;
+}
+
+.name {
+  padding-top: 1rem;
+}
+
+.profile-pic {
+  width: 6rem;
+  border-radius: 50%;
+  margin: 1rem 2rem 0 0;
+}
+
+.email {
+  font-size: 0.9rem;
+}
+
+.profile-info {
+  padding-left: 1.3rem;
+}
+
+.main {
+  width: 30rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 35rem;
+  position: relative;
+}
+
+.logo {
+  width: 3.8rem;
+  padding-right: 0.5rem ;
+  border-radius: 50%;
+}
+
+
+@media all and (max-width: 980px) {
+  .logo {
+    width: 5rem;
+    margin-left: 18.1rem;
+  }
+
+  .siteName {
+    font-size: 3rem;
+  }
+}

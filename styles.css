@@ -29,22 +29,19 @@ body {
   position: relative;
 }
 
-.name {
-  padding-top: 1rem;
-}
-
 .profile-pic {
   width: 6rem;
   border-radius: 50%;
-  margin: 1rem 2rem 0 0;
+  margin: 1rem 1rem 0 0;
 }
 
 .email {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .profile-info {
-  padding-left: 1.3rem;
+  padding-left: 0.1rem;
+  padding-bottom: 1rem;
 }
 
 .main {
@@ -63,12 +60,25 @@ body {
 
 
 @media all and (max-width: 980px) {
+  .main {
+    width: 15.5rem;
+  }
+
   .logo {
-    width: 5rem;
-    margin-left: 18.1rem;
+    width: 3.1rem;
+    padding-left: 1rem;
   }
 
   .siteName {
-    font-size: 3rem;
+    font-size: 2.6rem;
+  }
+
+  .profile-pic {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .email {
+    text-align: center;
   }
 }

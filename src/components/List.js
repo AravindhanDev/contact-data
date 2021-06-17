@@ -2,12 +2,11 @@ import React from 'react'
 import {Paper, LinearProgress} from "@material-ui/core";
 
 const List = (props) => {
-    console.log(props.contacts, props.loading)
     const contacts = props.contacts;
     const loading = props.loading;
     return (
       <Paper
-        elevation={10}
+        elevation={20}
         className="main"
         style={{backgroundColor: "#D3E0EA", color: "#293B5F"}}
         >
